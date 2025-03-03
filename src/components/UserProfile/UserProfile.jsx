@@ -20,7 +20,7 @@ const UserProfile = () => {
   };
 
   return (
-    <div className="mainContent"> {/* ✅ Keeps footer at bottom */}
+    <div className="mainContent"> 
       <div className={styles.profileContainer}>
         <h2>User Profile</h2>
 

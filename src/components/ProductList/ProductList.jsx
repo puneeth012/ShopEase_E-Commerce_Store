@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useCart } from "../../context/CartContext";
-import { useNavigate } from "react-router-dom"; // Import useNavigate
+import { useNavigate } from "react-router-dom"; 
 import products from "../../data/products";
 import styles from "./ProductList.module.css";
 
@@ -22,7 +22,7 @@ const ProductList = ({ searchQuery }) => {
     <div className={styles.productList}>
       <h2 className={styles.title}>Products</h2>
       
-      {/* Category Filter */}
+    
       <div className={styles.categoryFilter}>
         {categories.map((category) => (
           <button
@@ -46,7 +46,7 @@ const ProductList = ({ searchQuery }) => {
                 <button className={styles.addToCartButton} onClick={() => addToCart(product)}>Add to Cart</button>
                 <button 
                   className={styles.viewDetailsButton} 
-                  onClick={() => navigate(`/product/${product.id}`)} // ✅ Navigate to product details
+                  onClick={() => navigate(`/product/${product.id}`)}
                 >
                   View Details
                 </button>

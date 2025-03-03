@@ -12,12 +12,12 @@ export const UserProvider = ({ children }) => {
     if (user) {
       localStorage.setItem("user", JSON.stringify(user));
     } else {
-      localStorage.removeItem("user"); // ✅ Remove user data on logout
+      localStorage.removeItem("user"); 
     }
   }, [user]);
 
   const login = (userData) => {
-    setUser(userData); // ✅ Set user data after login
+    setUser(userData); 
   };
 
   const updateUser = (updatedUser) => {
@@ -32,8 +32,8 @@ export const UserProvider = ({ children }) => {
   };
 
   const logout = () => {
-    setUser(null); // ✅ Clear user state
-    localStorage.removeItem("user"); // ✅ Clear from localStorage
+    setUser(null); 
+    localStorage.removeItem("user"); 
   };
 
   return (

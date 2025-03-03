@@ -14,7 +14,7 @@ const Cart = () => {
   const totalPrice = cart.reduce((total, item) => total + item.price, 0);
 
   return (
-    <div className="mainContent"> {/* ✅ Fix footer issue */}
+    <div className="mainContent"> 
       <div className={styles.cartContainer}>
         <h2>Your Cart</h2>
         {cart.length === 0 ? (

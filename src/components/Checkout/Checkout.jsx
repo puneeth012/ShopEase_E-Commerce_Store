@@ -35,7 +35,7 @@ const Checkout = () => {
 
     addOrder(newOrder);
     clearCart();
-    navigate("/thank-you"); // ✅ Redirect to Thank You page
+    navigate("/thank-you"); 
   };
 
   return (

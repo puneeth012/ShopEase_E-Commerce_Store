@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./ProductList.module.css"; // Using the updated CSS module
+import styles from "./ProductList.module.css"; 
 
 const ProductFilters = ({ searchQuery, setSearchQuery, category, setCategory, sort, setSort }) => {
   return (
     <div className={styles.filtersContainer}>
-      {/* Search Bar */}
+      
       <input
         type="text"
         placeholder="Search products..."
@@ -13,7 +13,7 @@ const ProductFilters = ({ searchQuery, setSearchQuery, category, setCategory, so
         className={styles.searchInput}
       />
 
-      {/* Category Filter Buttons */}
+      
       <div className={styles.categoryButtonsContainer}>
         <button
           className={`${styles.categoryButton} ${category === "" ? styles.activeCategory : ""}`}
@@ -41,7 +41,7 @@ const ProductFilters = ({ searchQuery, setSearchQuery, category, setCategory, so
         </button>
       </div>
 
-      {/* Sorting */}
+  
       <select value={sort} onChange={(e) => setSort(e.target.value)} className={styles.filterSelect}>
         <option value="">Sort By</option>
         <option value="lowToHigh">Price: Low to High</option>

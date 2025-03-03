@@ -27,20 +27,20 @@ const Register = () => {
       return;
     }
 
-    // Retrieve existing users from localStorage
+    
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Check if email is already registered
+  
     if (existingUsers.some(user => user.email === formData.email)) {
       setError("Email is already registered.");
       return;
     }
 
-    // Add new user to the list
+
     const updatedUsers = [...existingUsers, formData];
     localStorage.setItem("users", JSON.stringify(updatedUsers));
 
-    // Automatically log in the user
+    
     login(formData);
     navigate("/profile");
   };

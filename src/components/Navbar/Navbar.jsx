@@ -11,12 +11,12 @@ const Navbar = ({ setSearchQuery }) => {
 
   return (
     <nav className={styles.navbar}>
-      {/* Left Side - Logo */}
+  
       <h2 className={styles.logo}>
         <Link to="/">Ecommerce</Link>
       </h2>
 
-      {/* Center - Search Bar (Visible Only on Products Page) */}
+    
       {location.pathname === "/products" && (
         <input
           type="text"
@@ -26,12 +26,12 @@ const Navbar = ({ setSearchQuery }) => {
         />
       )}
 
-      {/* Right Side - Navigation Links */}
+      
       <div className={styles.navLinks}>
         <Link to="/" className={styles.navItem}>Home</Link>
         <Link to="/products" className={styles.navItem}>Products</Link>
         <Link to="/cart" className={styles.cartLink}>
-          Cart ({cart?.length || 0}) {/* ✅ Prevents errors if cart is undefined */}
+          Cart ({cart?.length || 0}) 
         </Link>
         {user ? (
           <div className={styles.userSection}>

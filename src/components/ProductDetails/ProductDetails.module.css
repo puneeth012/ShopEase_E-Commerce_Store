@@ -58,13 +58,13 @@
   margin-bottom: 20px;
 }
 
-/* Add to Cart & Back Button Wrapper */
+
 .buttons {
   display: flex;
-  gap: 15px; /* Adds space between buttons */
+  gap: 15px; 
 }
 
-/* Add to Cart Button */
+
 .addButton {
   background-color: #28a745;
   color: white;
@@ -81,7 +81,7 @@
   transform: scale(1.05);
 }
 
-/* Back Button */
+
 .backButton {
   background-color: #555;
   color: white;

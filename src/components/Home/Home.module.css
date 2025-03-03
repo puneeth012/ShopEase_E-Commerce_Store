@@ -3,12 +3,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
-  width: 100%; /* Full viewport width */
+  height: 100vh; 
+  width: 100%; 
   background: url('https://img.freepik.com/free-photo/computer-mouse-paper-bag-blue-background-top-view_169016-43756.jpg?t=st=1740653475~exp=1740657075~hmac=2b3115d3aca8c07d67a662f6ed17e0b3d75692466a4f3b627df0c32c0cd821bb&w=1380') no-repeat center center/cover;
   text-align: center;
   color: white;
-  overflow: hidden; /* Prevents scrolling */
+  overflow: hidden; 
 }
 
 .homeContent {
@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Ensures full height */
+  min-height: 100vh; 
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
 .heroSection {
   max-width: 600px;
   padding: 20px;
-  background: rgba(255, 255, 255, 0.15); /* Light Glass Effect */
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(10px);
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);

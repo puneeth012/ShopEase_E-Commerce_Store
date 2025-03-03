@@ -26,7 +26,7 @@
 }
 
 h2, h3, p {
-  color: #333; /* ✅ Ensures text is clearly visible */
+  color: #333; 
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -60,7 +60,7 @@ h2, h3, p {
 
 .cartPrice {
   font-weight: bold;
-  color: #222; /* ✅ Darker text for readability */
+  color: #222; 
 }
 
 /* Buttons Styling */

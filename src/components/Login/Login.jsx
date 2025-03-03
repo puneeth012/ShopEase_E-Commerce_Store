@@ -20,10 +20,10 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Retrieve all users from localStorage
+    
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Find the user by email and password
+    
     const foundUser = existingUsers.find(
       (user) => user.email === formData.email && user.password === formData.password
     );
