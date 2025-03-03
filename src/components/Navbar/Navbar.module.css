@@ -1,0 +1,109 @@
+.navbar {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  width: 100%;
+  color: white;
+}
+
+
+.logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo a:hover{
+  color: #ffcc00;
+}
+
+.searchInput {
+  flex: 1;
+  max-width: 300px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 20px;
+  text-align: center;
+  outline: none;
+  font-size: 16px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.navItem:hover{
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+
+.cartLink {
+  font-weight: bold;
+}
+
+.cartLink:hover{
+  color: #ffcc00;
+}
+
+.userSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.profileLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.profileLink:hover {
+  color: #ffcc00;
+}
+
+.logoutButton {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease-in-out;
+}
+
+.logoutButton:hover {
+  background-color: #cc0000;
+}
+
+.authLinks {
+  display: flex;
+  gap: 15px;
+}
+
+.authLink {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.authLink:hover {
+  color: #ffcc00;
+  font-weight: bold;
+}

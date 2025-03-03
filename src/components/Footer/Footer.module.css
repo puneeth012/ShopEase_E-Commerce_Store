@@ -1,0 +1,13 @@
+.footer {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #222; /* Darker for contrast */
+  color: #fff; /* Ensure white text */
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 12px; /* Ensure readable text */
+}
+
+.footer>p{
+  color: white;
+}

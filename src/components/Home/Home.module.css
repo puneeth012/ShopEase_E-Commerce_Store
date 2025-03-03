@@ -1,0 +1,71 @@
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%; /* Full viewport width */
+  background: url('https://img.freepik.com/free-photo/computer-mouse-paper-bag-blue-background-top-view_169016-43756.jpg?t=st=1740653475~exp=1740657075~hmac=2b3115d3aca8c07d67a662f6ed17e0b3d75692466a4f3b627df0c32c0cd821bb&w=1380') no-repeat center center/cover;
+  text-align: center;
+  color: white;
+  overflow: hidden; /* Prevents scrolling */
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ensures full height */
+  text-align: center;
+}
+
+.homeFooter {
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.heroSection {
+  max-width: 600px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15); /* Light Glass Effect */
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f8f8f8;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+
+}
+.discover{
+  color: white;
+}
+
+.shopButton {
+  background: linear-gradient(135deg, #f40d0d, #f3081b);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.shopButton:hover {
+  background: linear-gradient(135deg, #f40d0d, #f3081b);
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(255, 71, 87, 0.5);
+}

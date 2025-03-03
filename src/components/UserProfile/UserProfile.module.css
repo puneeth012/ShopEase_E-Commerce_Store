@@ -1,0 +1,94 @@
+.profileContainer {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.profileContainer h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.userInfo {
+  font-size: 16px;
+  color: #444;
+  margin: 8px 0;
+}
+
+/* Edit Profile */
+.editContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editButton,
+.saveButton {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saveButton {
+  background-color: #28a745;
+}
+
+.editButton:hover,
+.saveButton:hover {
+  opacity: 0.9;
+}
+
+/* Order History */
+.orderList {
+  list-style: none;
+  padding: 0;
+}
+
+.orderItem {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #007bff;
+}
+
+.orderItem p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* No orders message */
+.noOrders {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+  margin-top: 10px;
+}
+
+/* Not logged in message */
+.notLoggedIn {
+  text-align: center;
+  font-size: 16px;
+  color: #d9534f;
+  font-weight: bold;
+  margin-top: 10px;
+}

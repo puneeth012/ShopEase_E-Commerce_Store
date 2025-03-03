@@ -1,0 +1,110 @@
+.cartContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh; /* Ensures the container takes up most of the viewport */
+}
+
+/* Ensures the cart page content expands and pushes the footer down */
+.cartPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.cartFooter {
+  margin-top: auto; /* Pushes footer to bottom if content is short */
+  padding: 15px 0;
+  text-align: center;
+  background: #f8f8f8;
+  border-top: 1px solid #ddd;
+}
+
+h2, h3, p {
+  color: #333; /* ✅ Ensures text is clearly visible */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.cartImage {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.cartDetails {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.cartPrice {
+  font-weight: bold;
+  color: #222; /* ✅ Darker text for readability */
+}
+
+/* Buttons Styling */
+.removeButton, .clearCartButton, .orderButton {
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.removeButton {
+  background-color: red;
+  color: white;
+}
+
+.removeButton:hover {
+  background-color: darkred;
+}
+
+.clearCartButton {
+  background-color: #ff9800;
+  color: white;
+  margin-right: 10px;
+}
+
+.clearCartButton:hover {
+  background-color: #e68900;
+}
+
+.orderButton {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.orderButton:hover {
+  background-color: #3d8b40;
+}
+
+.emptyCart{
+  color: black;
+  font-weight: bold;
+  position: relative;
+  top:20px
+
+}

@@ -1,0 +1,47 @@
+.checkoutContainer {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.checkoutForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkoutForm label {
+  font-weight: bold;
+}
+
+.checkoutForm input,
+.checkoutForm textarea,
+.checkoutForm select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.placeOrderButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.placeOrderButton:hover {
+  background-color: #218838;
+}
+
+
+.orderSuccessMessage {
+  color: black;
+}
